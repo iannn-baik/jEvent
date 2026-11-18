@@ -17,8 +17,8 @@ import javafx.stage.Stage;
 public class App extends Application {
 
     private final EventManager manager = new EventManager();
-    // Akun admin bawaan. Ganti sesuai kebutuhan.
-    private final Admin admin = new Admin("admin", "admin123");
+
+    private final Admin admin = new Admin("aku admin kau member", "admin123");
 
     private final BorderPane root = new BorderPane();
     private final ToggleGroup grupNav = new ToggleGroup();

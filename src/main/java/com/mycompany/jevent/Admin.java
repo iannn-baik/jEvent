@@ -1,6 +1,4 @@
 package com.mycompany.jevent;
-
-/** Akun admin. Hanya admin yang boleh mengelola data event. */
 public class Admin {
     private final String username;
     private final String password;
